@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Car - Drive Motors</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./addacar.js" defer></script>
+</head>
+<body>
+    <nav class="main-nav">
+        <a href="index.html" class="main-link">Home</a>
+    </nav>
+    <header class="header">
+        <h2>Add your existing catalogue for <br>
+            potential customers to view</h2>
+    
+            <h2>Add your contact details for <br>
+            potential customers to contact you</h2>
+    </header>
+        <form id="form">
+            <input type="text" id="make" placeholder="Make" required>
+            <input type="text" id="model" placeholder="Model" required >
+            <input type="number" id="price" placeholder="Price" required>
+            <input type="url" id="photo" placeholder="Photo url" required>
+
+            <div class="radio">
+                <input type="radio" name="Transmission" id="manual" value="manual">
+                <label for="manual" >Manual</label>
+                <input type="radio" name="Transmission" id="automatic" value="automatic">
+                <label for="automatic" >Automatic</label>
+            </div>
+
+            <input type="text" id="dealerName" placeholder="Dealer Name" required>
+            <input type="text" id="dealerLocation" placeholder="Location" required>
+            <input type="tel" id="dealerPhone" placeholder="Phone Number" required> 
+            <button type="submit">Add car & Contact details</button>
+        </form>
+        <footer>
+            <div class="footer1">
+                <p>&copy; 2025 Drive Motors. All rights preserved</p>
+            </div>
+        </footer>
+</body>
+</html>
